@@ -7,7 +7,7 @@
   3. 
 
 #### Checklist (before submitting, fill in each set of square brackets with an 'x')
-- [] I have entered the Pull Request title in the format of "firstname-lastname"
+- [] I have entered the Pull Request title in the format of "firstname-firstname"
 - [] This PR includes commits from both myself and my partner; e.g. We followed good pair programming practices by switching driver/navigator roles.
 - [] There is no extraneous, unrelated code included in this PR.
 - [] We have summarized our `TODO:` process above.
