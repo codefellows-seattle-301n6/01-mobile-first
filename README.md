@@ -12,6 +12,8 @@ The workflow may take a little getting used to, so give yourself time to work th
 
 ## Setup your repo
 
+![High-level Overview: Git Workflow](gitflow_front.png)
+
 Here is the recommended workflow:
 
 1. Driver: fork this repository if you haven't done so already.
