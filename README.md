@@ -58,16 +58,16 @@ Find those `TODO` items in the code, and tackle one of them.
 7. `cd partners-forked-labs`
 8. The new driver (original navigator):
   1. `git clone` the repo your patner Slacked you into your navigator folder.
-  2. `git fetch origin` branch-name
+  2. `git fetch origin` branch-name (ex: `git fetch origin rick-brian`)
   2. Now open the starter-code in Atom. It's your turn to have the hands on the keyboard!
 
 ## Submit your assignment
 
-When you are finished with lab (or if the 2 hour time limit runs out), please submit your work. To do this, you'll create *one* Pull Request (aka: "PR") to the original repo with your changes, and you'll each submit that same PR link in Canvas.
+When you are finished with lab, please submit your work. To do this, you'll create *one* Pull Request (aka: "PR") to the **Upstream/CF** repo with your changes, and you'll each submit that same PR link in Canvas.
 
 1. Ensure that all your local changes are committed, and pushed to your `origin` repo.
-2. Visit the origin repo on github.com. (or just type `git open` in the terminal if you have that package installed :wink:
-1. Create a new PR and ensure the branches look correct.
+2. Visit the origin repo on github.com.
+1. Create a new PR and ensure the branches look correct. (`base fork: codefellows-seattle-301n6 / base: master`, `head fork: yourUserName/02... / base: branch`)
 1. Fill in the template based on the text box prompts:
   1. Write a good descriptive summary of your changes:
     - Be sure to include how much time you spent on it, and who you worked with.
@@ -78,9 +78,7 @@ When you are finished with lab (or if the 2 hour time limit runs out), please su
 ## TODOs: MVP
   1. Set up the viewport and fluid media rules so content fits on mobile devices.
   1. Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
-  2. Ensure the images are responsive :wink:
+  2. Ensure the images are responsive
+  1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
 
 - [Video: Mobile Testing Tip for Your Phone] (https://www.youtube.com/watch?v=2t4E_tc8TKM)
-
-## Stretch Goals (*not required*):
-  1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
