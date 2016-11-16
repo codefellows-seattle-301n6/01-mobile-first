@@ -13,7 +13,9 @@
   /* TODO: Add styles for the icon-menu class (whether it be the
       hamburger font icon or an image of your choosing). It should be
       bigger, and off to the right. */
-
+  /*display: block;*/
+  height: 10px;
+  width: 10px;
 }
 
 .main-nav {
@@ -76,5 +78,8 @@
     display: inline;
     max-width: 20%;
     padding: 10px;
+  }
+  .icon-menu {
+    display: none;
   }
 }
