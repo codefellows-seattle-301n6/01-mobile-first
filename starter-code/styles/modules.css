@@ -58,6 +58,19 @@
   text-decoration: none;
 }
 
+
+@media screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+  .main-nav ul {
+    display: block;
+  }
+  .main-nav li {
+    display: inline;
+  }
+}
+
 /* TODO: Now add styles for how things should look on a larger screen,
    (hint: min is in!):
 @media screen...
