@@ -79,8 +79,8 @@ When you are finished with lab, please submit your work. To do this, you'll crea
 
 ## TODOs: MVP
   1. Set up the viewport and fluid media rules so content fits on mobile devices.
-  1. Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
   2. Ensure the images are responsive
   1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
+  1. (Optional) Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
 
 - [Video: Mobile Testing Tip for Your Phone] (https://www.youtube.com/watch?v=2t4E_tc8TKM)
