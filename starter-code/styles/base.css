@@ -1,7 +1,12 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
+/* TODO: Done: Add a rule for images, so they never exceed their container's width. */
 
+/*viewport {
+  max-width: 100%;
+}*/
 
-
+img {
+  max-width: 100%;
+}
 body {
   line-height: 1.5;
   font-size: 100%;

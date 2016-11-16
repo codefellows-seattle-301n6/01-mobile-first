@@ -9,10 +9,23 @@
   padding: 0 0 .2em 1em;
 }
 
-.icon-menu {
-  /* TODO: Add styles for the icon-menu class (whether it be the
-      hamburger font icon or an image of your choosing). It should be
-      bigger, and off to the right. */
+@media (max-width: 960px) {
+  .icon-menu {
+    /* TODO: Add styles for the icon-menu class (whether it be the
+        hamburger font icon or an image of your choosing). It should be
+        bigger, and off to the right. */
+  /*Our TODO:
+        above tablet size hide
+        upper right hand corner
+        slightly larger then is - perm*/
+
+  }
+}
+
+@media (min-width: 961px) {
+  .icon-menu {
+    visibility: hidden;
+  }
 }
 
 .main-nav {
