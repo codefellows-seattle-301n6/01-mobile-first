@@ -13,6 +13,10 @@ hr {
   width: 80%;
 }
 
+img {
+  max-width: inherit;
+  max-height: inherit;
+}
 /*TEXT STYLES
 =======================================*/
 p {
