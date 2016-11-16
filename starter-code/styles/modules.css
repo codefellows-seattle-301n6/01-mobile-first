@@ -9,11 +9,22 @@
   padding: 0 0 .2em 1em;
 }
 
-.icon-menu {
-  /* TODO: Add styles for the icon-menu class (whether it be the
-      hamburger font icon or an image of your choosing). It should be
-      bigger, and off to the right. */
+@media (max-width: 960px) {
+  .icon-menu {
+    /* TODO:DONE: Add styles for the icon-menu class (whether it be the
+        hamburger font icon or an image of your choosing). It should be
+        bigger, and off to the right. */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+  }
+  .main-nav:hover ul {
+    display: block;
+  }
 }
+
 
 .main-nav {
   padding: 0.1em;
@@ -29,9 +40,6 @@
   clear: both;
 }
 
-.main-nav:hover ul {
-  display: block;
-}
 
 .main-nav li {
   margin-right: .4em;
@@ -58,11 +66,25 @@
   text-decoration: none;
 }
 
-/* TODO: Now add styles for how things should look on a larger screen,
+/* TODO: DONE: Now add styles for how things should look on a larger screen,
    (hint: min is in!):
 @media screen...
-         - Hide the hamburger.
-         - Display our unordered list (aka our nav links).
-         - The main-nav should be all on one row, with padding spaced better
+         - DONE: Hide the hamburger.
+         - DONE: Display our unordered list (aka our nav links).
+         - DONE: The main-nav should be all on one row, with padding spaced better
            for a larger screen.
 */
+@media (min-width: 961px) {
+  .icon-menu {
+    visibility: hidden;
+  }
+  .main-nav ul {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+  }
+  .main-nav li {
+    display: inline;
+    visibility: visible;
+  }
+}
