@@ -68,3 +68,9 @@
 .icon-github::before {
 	content: "\e907";
 }
+
+#hamburger {
+	width: 5%;
+	height: 5%;
+	float: right;
+}
